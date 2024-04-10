@@ -18,7 +18,8 @@ To install and run this project, follow these steps:
 1. Clone the repository `git clone https://github.com/21amir21/Little-Lemon.git`
 2. Navigate to the project directory `cd Little-Lemon`
 3. Install the required dependencies with `pip install -r requirements.txt`
-4. Run the Django server with `python manage.py runserver`
+4. Run database migrations with `python manage.py makemigrations` then `python manage.py migrate`
+5. Then run the Django server with `python manage.py runserver`
 
 ## Dependencies
 
